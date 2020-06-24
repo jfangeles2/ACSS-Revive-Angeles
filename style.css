@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+
+.log-in-container{
+    margin-top: 0px;
+    width: 43%;
+    text-align: center;
+    /* background: red; */
+}
+
+.twitter-logo{
+    display: inline-block;
+    color: white;
+    margin: 22px ;
+}
+
+.text-log-in{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:#8899A6;
+    padding-top: 2px;
+}
+
+.input-containers{
+    background-color: #192734;
+    text-align: left;
+}
+
+body{
+    background-color:#15202B;
+}
+
+.text-box-login{
+    background-color:#192734;
+    border: none;
+    border-bottom: 2px solid #8899A6;
+    font-size: 19px;
+    color: white;
+    padding-left: 10px;
+    margin: none;
+    height: 35px;
+/* code below is from class form-control of bootstrap. Edited some parts */
+    display: block;
+    width: 100%;
+    /* padding: 0.375rem 0.75rem; */
+    /* font-size: 1rem; */
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #495057; */
+    background-clip: padding-box;
+    /* border: 1px solid #ced4da */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: 0.25rem; */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.log-in-container h3{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* #192734 inner inputbox*/
+/* #8899A6 text unlighted*/
+/* #1DA1F2 */
+/* #15202B background color*/ 
