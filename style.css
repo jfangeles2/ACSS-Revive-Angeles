@@ -3,8 +3,9 @@
 
 .log-in-container{
     margin-top: 0px;
-    width: 43%;
+    width: 100%;
     text-align: center;
+    align-items: center;
     /* background: red; */
 }
 
@@ -23,8 +24,12 @@
 }
 
 .input-containers{
+    margin: 1rem auto;
     background-color: #192734;
     text-align: left;
+    /* width: 550px; */
+    min-width: 440px;
+    max-width: 550px;
 }
 
 body{
@@ -64,6 +69,25 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+.log-in-button{
+    width:550px;
+    height: 49px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* border-radius: 100%; */
+}
+
+.log-in-footer{
+    /* background-color: red; */
+    margin-top: 25px;
+}
+
+.log-in-footer small{
+    color: #1B95E0;
 }
 
 /* #192734 inner inputbox*/
